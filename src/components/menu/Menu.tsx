@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import { menu } from '../../data';
-import './menu.scss';
+import './Menu.scss';
 
 function Menu() {
     return (

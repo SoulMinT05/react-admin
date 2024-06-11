@@ -1,4 +1,4 @@
-import './products.scss';
+import './Products.scss';
 
 function Products() {
     return <div className="products">Products</div>;
