@@ -4,13 +4,14 @@ import { menu } from '../../data';
 import './Menu.scss';
 
 function Menu() {
+    console.log('menu: ', menu);
     return (
         <div className="menu">
             {menu.map((item) => (
                 <div className="item" key={item.id}>
                     <span className="title">{item.title}</span>
                     {item.listItems.map((listItem) => (
-                        <Link to="/" className="listItem" key={listItem.id}>
+                        <Link to={listItem.url} className="listItem" key={listItem.id}>
                             <img src={listItem.icon} alt="" />
                             <span className="listItemTitle">{listItem.title}</span>
                         </Link>
