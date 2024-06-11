@@ -21,7 +21,7 @@ function ChartBox(props: Props) {
                     <img src={props.icon} alt="" />
                     <span>{props.title}</span>
                 </div>
-                <h1>11.238</h1>
+                <h1>{props.number}</h1>
                 <Link to="/" style={{ color: props.color }}>
                     View all
                 </Link>

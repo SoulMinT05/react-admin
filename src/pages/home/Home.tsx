@@ -11,6 +11,7 @@ import ChartBox from '../../components/chartBox/ChartBox';
 import TopBox from '../../topBox/TopBox';
 import BarChartBox from '../../components/barChartBox/BarChartBox';
 import './Home.scss';
+import PieChartBox from '../../components/pieChartBox/PieChartBox';
 
 function Home() {
     return (
@@ -24,7 +25,9 @@ function Home() {
             <div className="box box3">
                 <ChartBox {...chartBoxProduct} />
             </div>
-            <div className="box box4">Box4</div>
+            <div className="box box4">
+                <PieChartBox />
+            </div>
             <div className="box box5">
                 <ChartBox {...chartBoxConversion} />
             </div>
